@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Padawan">
+    <meta name="description" content="A weather created using HTML, CSS and Javascript">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" class="search-bar" placeholder="Search city">
+        <button class="search-button"><i class="fa fa-search"></i></button>
+      </div>
+      <div class="weather">
+        <h2 class="city">Weather in Bucharest</h2>
+        <div class="temp">18 <span class="celsius">°C</span> <span class="fahrenheit"> °F</span></div>
+        <div class="flex">
+          <img src="https://openweathermap.org/img/wn/04n@2x.png" alt="" class="icon">
+          <div class="description">Cloudy</div>
+        </div>
+        <div class="humidity">Humidity: 60%</div>
+        <div class="wind">Wind speed: 6.2 <span class="kph">km/h</span><span class="mps"> m/s</span></div>
+        <div class="visibility">Visibility: 3,5 km</div>
+        <div class="pressure">Pressure: 1013 hPa</div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
